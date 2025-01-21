@@ -1,0 +1,23 @@
+{
+  "name": "cohort-7.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "post",
+    "delete",
+    "update"
+  ],
+  "author": "Oghenetega Godwin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
