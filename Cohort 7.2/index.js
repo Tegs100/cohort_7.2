@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());//.use is a method used to get information posted from the frontend.//Middleware is a function that actually runs before any other thing runs.
 
 
-mongoose.connect("mongodb+srv://itz_tycon:3M7tE5tm7aPi6B15@axiacohort7.wdev4.mongodb.net/cohort7?retryWrites=true&w=majority&appName=AxiaCohort7")
+mongoose.connect("mongodb+srv://********:********@axiacohort7.wdev4.mongodb.net/cohort7?retryWrites=true&w=majority&appName=AxiaCohort7")
 .then(() => {
   console.log("connected to database");
 })
